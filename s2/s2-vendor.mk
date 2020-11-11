@@ -315,6 +315,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib/libsta_lib_third_party_libsta_lib_libsta_gyp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsta_lib_third_party_libsta_lib_libsta_gyp.so \
     vendor/leeco/s2/proprietary/vendor/lib/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so \
     vendor/leeco/s2/proprietary/vendor/lib/libstlport_sta.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstlport_sta.so \
+    vendor/leeco/s2/proprietary/vendor/lib/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdmapper.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libChamomilePA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libChamomilePA.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
@@ -323,7 +324,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_algorithm.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libsta_lib_third_party_libsta_lib_libsta_gyp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsta_lib_third_party_libsta_lib_libsta_gyp.so \
     vendor/leeco/s2/proprietary/vendor/lib64/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so \
-    vendor/leeco/s2/proprietary/vendor/lib64/libstlport_sta.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstlport_sta.so
+    vendor/leeco/s2/proprietary/vendor/lib64/libstlport_sta.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstlport_sta.so \
+    vendor/leeco/s2/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so
 
 PRODUCT_PACKAGES += \
     libtfa9890
